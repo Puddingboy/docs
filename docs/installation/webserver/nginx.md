@@ -173,7 +173,7 @@ location ~* /(.*)\.(?:markdown|md|twig|yaml|yml)$ {
 #### `php-fpm.conf`
 
 The `php-fpm.conf` file define the settings for the PHP FastCGI Process Manager
-used for you Bolt site(s).
+used for your Bolt site(s).
 
 ```nginx
 location ~ [^/]\.php(/|$) {
