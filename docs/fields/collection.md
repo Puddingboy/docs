@@ -145,13 +145,13 @@ The field has three specific options:
                     field: title
                     default: "Lets start with a title"
                 1:
+                    field: content
+                    default: "<strong>Finish strong</strong> after the kitten with some content"
+                2:
                     field: image
                     default:
                         filename: "kitten.jpg"
                         alt: "Picture of a kitten"
-                2:
-                    field: content
-                    default: "<strong>Finish strong</strong> after the kitten with some content"
 ```
 
 <p class="note"><strong>Note:</strong> To set the default items inside a collection, you <strong>must</strong>
